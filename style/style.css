@@ -9,12 +9,34 @@
 body {
   width: 100%;
   height: auto;
-  background-color: rgb(210, 188, 240);
+  background-color: rgb(232, 222, 246);
  
 }
 
+
+.empresa {
+  font-family: 'Carter One';
+  font-size: 4rem;
+  color: #6e038c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.logo{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 0%;
+  text-align:right;
+}
+
+
+.titulo-session{
+  font-family: 'Carter One';
+  font-size: 1.7rem;
+  color: #6e038c;
+}
 .container-prod{
- 
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
   gap: 20px;
@@ -26,27 +48,39 @@ body {
     background-color: rgb(253, 250, 250);
     border: 2px solid black;
     color: rgb(10, 10, 10);
-    border: 2px solid #c207f6;
+    border: 2px solid #0c6050;
     border-radius: 15px;
     padding: 10px;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     
+  }
+
+  .container-img  {
+    text-align: center;
   }
   .container-img figure{
     width: 100%;
-    height: 100px;
-    max-height: 100px;
+    height: 150px;
+    max-height: 150px;
   
    }
   
   .container-img figure img{
-    width: 100px;
-    height: 100px;
-    max-height: 100px;
+    width: 150px;
+    height: 150px;
+    max-height: 150px;
     border-radius: 20px;
     
+  }
+  .container-img p button {
+    background-color: #197665;
+    color: aliceblue;
+    padding: 5px;
+   
+  }
+  .container-img p button:hover {
+    background-color: #6e038c;
   }
 
