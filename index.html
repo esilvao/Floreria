@@ -19,33 +19,34 @@
     <div>EL PORVENIR</div> 
     <div><img class="logo" src="./img/logo.jpg" alt=""></div>
   </header>
-  <nav class="navbar navbar-expand-lg Snavbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<!-- barra de navegacion -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Dias Especiales</a>
+          <a class="nav-link" href="#">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Productos destacados</a>
+          <a class="nav-link">Promociones</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Promociones</a>
+          <a class="nav-link">Servicios</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
-        </li>
-
       </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Busquda</button>
+      </form>
     </div>
-  </nav>
+  </div>
+</nav>
   <main>
     <div class="jumbotron jumbotron-fluid border border-danger" >
       <div class="container">
@@ -60,7 +61,7 @@
                 <div>
                   <p>
                     <label> Email:</label></label><input class="color-fondo-input" type="email" name="email" required>
-                    <button type="button" class="btn btn-secondary btn-sm">Registrar</button>
+                    <button type="button" class="btn btn-secondary rounded-3" id="registrar">Registrar</button>
                   </p>
                   
                 </div>
@@ -82,8 +83,7 @@
           </figure>
         </a>
         <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
-        <p><button type="button" class="rounded-5">Agregar al carro</button></p>
-
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -91,8 +91,8 @@
             <img src="https://media.istockphoto.com/photos/flower-arrangement-picture-id175446963?k=20&m=175446963&s=612x612&w=0&h=iaKzKlfDmQ4xJ1725ixDP2zg9Khx8kzuUfo3j9nEZp0=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -100,8 +100,8 @@
             <img src="https://media.istockphoto.com/photos/three-dozen-red-roses-picture-id157531371?k=20&m=157531371&s=612x612&w=0&h=1vch3rsxr5lr8q6bntdJWrbshmwY8hFsfkTSIoE3rrc=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -109,8 +109,8 @@
             <img src="https://media.istockphoto.com/photos/three-yellow-sunflowers-in-a-summer-bouquet-isolated-picture-id1336602285?k=20&m=1336602285&s=612x612&w=0&h=fr7NcawkbNz-SS09Lau-O6dLh0ZqIb8_JEzjQZAoM5o=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -118,8 +118,8 @@
             <img src="https://media.istockphoto.com/photos/colorful-tulips-in-a-glass-vase-isolated-on-white-background-picture-id628790862?k=20&m=628790862&s=612x612&w=0&h=yAHRd6KV36tDH7IR4NYlE1TrFsdrIfdfphAFZVe5XLs=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -127,8 +127,8 @@
             <img src="https://media.istockphoto.com/photos/manycoloured-fowers-on-white-background-picture-id182180897?s=612x612" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -136,8 +136,8 @@
             <img src="https://media.istockphoto.com/photos/two-yellow-lily-picture-id514387054?k=20&m=514387054&s=612x612&w=0&h=xoTRYkTqsifY43nrIWonPtaZk9mdtN-mt4zOY-G5CMk=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -145,8 +145,8 @@
             <img src="https://media.istockphoto.com/photos/flowers-calla-lily-isolated-on-white-background-picture-id915321002?k=20&m=915321002&s=612x612&w=0&h=tedEVJFrMQ29BfNiZhbNt_ILc75KOxtVttYVLE1Gc7o=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -154,8 +154,8 @@
             <img src="https://media.istockphoto.com/photos/flowers-calla-lily-isolated-on-white-background-picture-id915321002?k=20&m=915321002&s=612x612&w=0&h=tedEVJFrMQ29BfNiZhbNt_ILc75KOxtVttYVLE1Gc7o=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
         <a href="#">
@@ -163,8 +163,8 @@
             <img src="https://media.istockphoto.com/photos/flowers-calla-lily-isolated-on-white-background-picture-id915321002?k=20&m=915321002&s=612x612&w=0&h=tedEVJFrMQ29BfNiZhbNt_ILc75KOxtVttYVLE1Gc7o=" alt="">
           </figure>
         </a>
-        <p>Descripcion del producto</p>
-        <p>Descripcion del producto</p>
+        <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+        <p><button type="button" class="rounded-3">Agregar al carro</button></p>
       </div>
  
     </div>

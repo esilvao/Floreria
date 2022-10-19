@@ -15,20 +15,21 @@ body {
 
 
 .empresa {
-  font-family: 'Carter One';
-  font-size: 4rem;
-  color: #6e038c;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 0.5rem;
 }
+.empresa div{
+  font-family: 'Carter One';
+  font-size: 4rem;
+  color: #6e038c;
+}
 .logo{
   width: 120px;
   height: 120px;
-  margin-bottom: 0%;
-  text-align:right;
-}
+  }
 
 
 .titulo-session{
@@ -36,6 +37,19 @@ body {
   font-size: 1.7rem;
   color: #6e038c;
 }
+
+#registrar {
+  background-color:rgb(232, 222, 246);
+  border: 2px solid #0c6050;
+  padding: 5px;
+  color: black;
+}
+
+#registrar:hover {
+  background-color: #1a8d5d;
+  color: #f3f6f5;
+}
+
 .container-prod{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
@@ -75,12 +89,13 @@ body {
     
   }
   .container-img p button {
-    background-color: #197665;
-    color: aliceblue;
+    background-color:rgb(232, 222, 246);
+    border: 2px solid #0c6050;
     padding: 5px;
-   
+    color: black;
   }
   .container-img p button:hover {
-    background-color: #6e038c;
+    background-color: #1a8d5d;
+    color: #f3f6f5;
   }
 
