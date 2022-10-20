@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script&family=Oswald&family=Sonsie+One&display=swap" rel="stylesheet">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Floreria</title>
+</head>
+<body>
+ 
+  <header class="empresa">
+    <div>EL PORVENIR</div> 
+    <div><img class="logo" src="./img/logo.jpg" alt=""></div>
+  </header>
+<!-- barra de navegacion -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Promociones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Servicios</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Busquda</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Primera parte jumbotrom-->
+  <main>
+    <div class="jumbotron jumbotron-fluid border border-danger" >
+      <div class="container">
+        <div class="row justify-content-lg-center border">
+          <div class="col-12 col-md-6 ">
+            <p class="titulo-session mt-4">Flores que alegran el alma</p>
+            <br>
+            <p class="lead">La felicidad y alegria que transmiten las flores es algo natural que transforma cualquier momento en un momento especial.</p>
+            <br>
+            <h6>Suscríbete aqui para recibir ofertas exclusivas</h6>
+            <!-- Registro de clientes-->
+            <form action="">
+                <div>
+                  <p>
+                    <label> Email:</label></label><input class="color-fondo-input" type="email" name="email" required>
+                    <button type="button" class="btn rounded-3" id="btn_propio">Registrar</button>
+                  </p>
+                </div>
+            </form>
+          </div>
+          <!-- Imagen jumbotrom-->
+          <div class="col-12 col-md-6">
+            <img src="./img/rosas.jpg" alt="" width="100%" height="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Nuestros productos-->
+    <div class="container">
+      <div class="row justify-content-lg-center border">
+        <div class="col-12 col-md-6 ">
+          <p class="titulo-session text-center">Nuestros Productos Mas Destados</p>
+          <div class="container-prod">
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/bouquet-of-pink-rose-flowers-in-a-glass-vase-isolated-picture-id1385696771?b=1&k=20&m=1385696771&s=170667a&w=0&h=8g-x7juuH_IkTQoyUWth_9n2VxIx4yG2--_fFgqZWxo=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/flower-arrangement-picture-id175446963?k=20&m=175446963&s=612x612&w=0&h=iaKzKlfDmQ4xJ1725ixDP2zg9Khx8kzuUfo3j9nEZp0=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/three-dozen-red-roses-picture-id157531371?k=20&m=157531371&s=612x612&w=0&h=1vch3rsxr5lr8q6bntdJWrbshmwY8hFsfkTSIoE3rrc=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/three-yellow-sunflowers-in-a-summer-bouquet-isolated-picture-id1336602285?k=20&m=1336602285&s=612x612&w=0&h=fr7NcawkbNz-SS09Lau-O6dLh0ZqIb8_JEzjQZAoM5o=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/colorful-tulips-in-a-glass-vase-isolated-on-white-background-picture-id628790862?k=20&m=628790862&s=612x612&w=0&h=yAHRd6KV36tDH7IR4NYlE1TrFsdrIfdfphAFZVe5XLs=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/manycoloured-fowers-on-white-background-picture-id182180897?s=612x612" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/two-yellow-lily-picture-id514387054?k=20&m=514387054&s=612x612&w=0&h=xoTRYkTqsifY43nrIWonPtaZk9mdtN-mt4zOY-G5CMk=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/flowers-calla-lily-isolated-on-white-background-picture-id915321002?k=20&m=915321002&s=612x612&w=0&h=tedEVJFrMQ29BfNiZhbNt_ILc75KOxtVttYVLE1Gc7o=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/flowers-calla-lily-isolated-on-white-background-picture-id915321002?k=20&m=915321002&s=612x612&w=0&h=tedEVJFrMQ29BfNiZhbNt_ILc75KOxtVttYVLE1Gc7o=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+            <div class="container-img shadow">
+              <a href="#">
+                <figure>
+                  <img src="https://media.istockphoto.com/photos/flowers-calla-lily-isolated-on-white-background-picture-id915321002?k=20&m=915321002&s=612x612&w=0&h=tedEVJFrMQ29BfNiZhbNt_ILc75KOxtVttYVLE1Gc7o=" alt="">
+                </figure>
+              </a>
+              <p id="descripcion-prod">A001-Arreglo primavera con florero</p>
+              <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
+            </div>
+      
+          </div>
+          <!-- Nuestros Servicios carrucel-->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1560141343-966cb5212777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIxfHxmb3RvJTIwaW5zdGFudGFuZWF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1653330963134-329a61aedc68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxwYWdvJTIwc2VndXJvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://media.istockphoto.com/photos/food-delivery-service-pizza-delivery-concept-picture-id1245901115?k=20&m=1245901115&s=612x612&w=0&h=jeP892sWEWu0bzl09kUvbqUQDuSsR0ElO0VXQBOtaWQ=" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- FIN SERVICIOS-->
+        </div>
+  </main>
+  <footer>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -9,13 +9,12 @@
 body {
   width: 100%;
   height: auto;
-  background-color: rgb(232, 222, 246);
- 
-}
+  /*background: #dbcedf; */
+  background:linear-gradient(30deg,  #dbcedf,rgb(204, 128, 194),  #d2a2e0,  #d6bdde,  #ded9df);
+ }
 
 
 .empresa {
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +35,8 @@ body {
   font-family: 'Carter One';
   font-size: 1.7rem;
   color: #6e038c;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #btn_propio {
@@ -50,6 +51,10 @@ body {
   color: #f3f6f5;
 }
 
+.carousel-itema img {
+  width: 300px;
+  height: 70px;
+}
 .container-prod{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
@@ -89,3 +94,22 @@ body {
     
   }
 
+ .carousel-item img {
+  width: 150px;
+  height: 400px;
+ }
+
+ /* ICONO CORAZON ANIMADO*/ 
+.heart {
+  background-image: url(https://cssanimation.rocks/images/posts/steps/heart.png);
+  background-position: left;
+  background-repeat: repeat;
+  background-size: 1450px;
+  cursor: pointer;
+  height: 15px;
+  width: 50px;
+}
+.heart:hover
+{
+  background-position: right;
+}
