@@ -25,6 +25,14 @@ body {
   font-size: 4rem;
   color: #6e038c;
 }
+
+.texto-page{
+  font-family: 'Carter One';
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #6e038c;
+
+}
 .logo{
   width: 120px;
   height: 120px;
