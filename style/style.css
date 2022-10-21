@@ -31,13 +31,40 @@ body {
   font-size: 1.25rem;
   font-weight: 300;
   color: #6e038c;
-
 }
+.texto-servicio{
+  border: radius 5px;
+  color: #000000;
+  font-family: 'Carter One';
+}
+
+.texto-servicio:hover{
+  border: radius 10px;
+  background-color: #96088d;
+  color: #d6bdde;
+  font-family: 'Carter One';
+}
+
+.imagen-footer{
+  width: 50px;
+  height: 50px;
+}
+
 .logo{
   width: 120px;
   height: 120px;
-  }
+}
 
+#imagen-principal{
+    padding: 2rem;
+    border: radius 3px;
+    box-shadow: 0px 0px 15px 15px #96088d;    
+}
+
+#imagen-principal:hover{
+    border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #96088d;
+}
 
 .titulo-session{
   font-family: 'Carter One';
