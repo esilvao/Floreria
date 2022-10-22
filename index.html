@@ -14,7 +14,7 @@
   <title>Floreria</title>
 </head>
 <body>
- 
+ <!-- Nombre y logo empresa -->
   <header class="empresa">
     <div>EL PORVENIR</div> 
     <div><img class="logo" src="./img/logo.jpg" alt=""></div>
@@ -25,16 +25,19 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" href="#catalogoproducto">Productos<a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Servicios</a>
+          <a href="#servicios" class="nav-link">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a href="#informacion" class="nav-link">Contacto e información</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -45,22 +48,27 @@
   </div>
 </nav>
 
-<!-- Primera parte jumbotrom-->
+<!-- inicio parte jumbotrom-->
   <main>
-    <div class="jumbotron jumbotron-fluid mt-3" >
+    <div class="jumbotron jumbotron-fluid mt-5" >
       <div class="container">
         <div class="row justify-content-lg-center">
-          <div class="col-12 col-md-6 ">
+          <div class="col-12 col-md-6">
             <p class="titulo-session mt-4">Flores que alegran el alma</p>
             <br>
-            <p class="lead">La felicidad y alegria que transmiten las flores es algo natural que transforma cualquier momento en un momento especial.</p>
+            <p class="texto-page">La felicidad y alegría que transmiten las flores es algo natural que transforma cualquier momento en un momento especial.</p>
             <br>
-            <h6>Suscríbete aqui para recibir ofertas exclusivas</h6>
+            <h6 class="texto-page">Suscríbete aqui para recibir ofertas exclusivas</h6>
             <!-- Registro de clientes-->
             <form action="">
-                <div>
+                <div class="texto-page">
                   <p>
-                    <label> Email:</label></label><input class="color-fondo-input" type="email" name="email" required>
+                    <label class=" texto-page L-registrocliente">Nombre :</label><input type="text" id="name" name="user_name" />
+                  </p>
+                  <p>
+                    <label class=" texto-page L-registrocliente">Email:</label><input class="color-fondo-input" type="email" name="email" required>
+                  </p>
+                  <p>
                     <button type="button" class="btn rounded-3" id="btn_propio">Registrar</button>
                   </p>
                 </div>
@@ -74,8 +82,10 @@
       </div>
     </div>
     <br>
+      <!-- Dibuja linea-->
+  <div class="linea"></div>
     <!-- Nuestros productos-->
-    <p class="titulo-session text-center">Nuestros Productos Mas Destados</p>
+    <p class="titulo-session text-center" id="catalogoproducto">Nuestros Productos Más Destados</p>
     <div class="container-prod">
       <div class="container-img shadow">
         <a href="#">
@@ -94,7 +104,7 @@
             <img src="https://media.istockphoto.com/photos/flower-arrangement-picture-id175446963?k=20&m=175446963&s=612x612&w=0&h=iaKzKlfDmQ4xJ1725ixDP2zg9Khx8kzuUfo3j9nEZp0=" alt="">
           </figure>
         </a>
-        <p id="descripcion-prod">A002-Variado con liliun</p>
+        <p id="descripcion-prod">A002-Variado de liliun</p>
         <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
@@ -104,7 +114,7 @@
             <img src="https://media.istockphoto.com/photos/three-dozen-red-roses-picture-id157531371?k=20&m=157531371&s=612x612&w=0&h=1vch3rsxr5lr8q6bntdJWrbshmwY8hFsfkTSIoE3rrc=" alt="">
           </figure>
         </a>
-        <p id="descripcion-prod">A003-Roja pasion</p>
+        <p id="descripcion-prod">A003-Roja pasión</p>
         <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
@@ -144,7 +154,7 @@
             <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQOBT7JhwVrrnVU0xUEQioE4qjaukZEHgyu9uh2U-rMDViKTKmUJQr_hpUkQYvphJw3TdwGRjRPE-J_p0Xl2PLklfwNBTvc2ymv7mcKqFzMY0BVSG-i2XJ7xoB5ac0&usqp=CAE" alt="">
           </figure>
         </a>
-        <p id="descripcion-prod">A007-Alegria de Azucena </p>
+        <p id="descripcion-prod">A007-Alegría de Azucena</p>
         <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
@@ -154,7 +164,7 @@
             <img src="https://rosasexpress.cl/wp-content/uploads/2019/08/1829-1.jpg" alt="">
           </figure>
         </a>
-        <p id="descripcion-prod">A008-Feliz Dia</p>
+        <p id="descripcion-prod">A008-Feliz día</p>
         <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
@@ -164,7 +174,7 @@
             <img src="https://cdnx.jumpseller.com/envio-flores/image/6521482/resize/1000/1100?1652372922" alt="">
           </figure>
         </a>
-        <p id="descripcion-prod">A009-Especial Rosa</p>
+        <p id="descripcion-prod">A009-Especial de Rosas</p>
         <p><button type="button" class="btn rounded-3" id="btn_propio">Agregar al carro</button></p>
       </div>
       <div class="container-img shadow">
@@ -180,7 +190,7 @@
     </div>
     
      <!-- Nuestros Servicios carrucel-->
-     <p class="titulo-session text-center">Servicios y adicionales</p>
+     <p class="titulo-session text-center" id="servicios">Servicios y complementos</p>
      <div class="container">
       <div class="row justify-content-lg-center">
         <div class="col-12 col-md-6">
@@ -219,36 +229,40 @@
           </div>
         </div>
         <div class="col-12 col-md-6">
-            <p class="texto-servicio">Foto instantana en la entrega (con costo adicional)</p>
+            <p class="texto-servicio">Foto instantanea en la entrega (con costo adicional)</p>
             <p class="texto-servicio">Despacho Express en 1hr(consultar disponibilidad y costo adicional)</p>
             <p class="texto-servicio">Agendar entrega para una fecha proxima (con pago anticipado)</p>
-            <p class="texto-servicio">Pago seguro en linea, contra entrega o directo en el local</p>
-            <p class="texto-servicio">Agragar  banderin o tarjeta con dedicatorio sin costo </p>
+            <p class="texto-servicio">Pago seguro en línea, contra entrega o directo en el local</p>
+            <p class="texto-servicio">Agragar  banderín o tarjeta con dedicatoria sin costo </p>
             <p class="texto-servicio">Consulte por la cesta especial aniversario</p>
-            <p class="texto-servicio">Complementos de regalo , puede agregar chocolates, globos, set de esencias aromaticas,etc.</p>
+            <p class="texto-servicio">Complementos de regalos, puedes agregar Chocolates, Globos, Set de Esencias Aromaticas,etc.</p>
           </p>
         </div>
       </div>
     </div>
      <!-- FIN SERVICIOS-->
+     
   </main>
-  <footer>
-    <div class="container">
+  <!-- Dibuja linea-->
+  <div class="border-top mt-4"></div>
+    <!-- INICO FOOTER-->
+  <footer id="informacion">
+    <div class="container mt-4">
       <div class="row justify-content-lg-center">
         
           <div class="col-12 col-md-6 col-lg-3"><img class="imagen-footer" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c543.png" alt="">+56 9 34534578</div>
           <div class="col-12 col-md-6 col-lg-3"><img class="imagen-footer" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="">Floreria_ElPorvenir</div>
           <div class="col-12 col-md-6 col-lg-3">
-              <p>Nuestros Locales</p>
+              <p class="font-weight-bold">Nuestros Locales</p>
               <p>Maipu 234, Santiago RM</p>
               <p>Lira 632, Providencia RM</p>
               <p>Los Montes 632, Las Condes RM</p>
           </div>  
           <div class="col-12 col-md-6 col-lg-3">
-            <p>Otros sitios de interes</p>
-            <a href="#">DesayunosADomicilio.cl</a>
-            <a href="#">ChocolatesArtesanales.cl</a>
-            <a href="#">RegalosyManualidades.cl</a>
+            <p class="font-weight-bold">Otros sitios de interes</p>
+            <p><a href="#">DesayunosADomicilio.cl</a></p>
+            <p><a href="#">ChocolatesArtesanales.cl</a></p>
+            <p><a href="#">RegalosyManualidades.cl</a></p>
           </div> 
         </div>
       </div>
