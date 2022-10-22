@@ -96,7 +96,7 @@ body {
 }
 .container-prod{
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(15rem,6fr));
   gap: 20px;
   padding: 20px;
   font-size: small;  
@@ -126,11 +126,11 @@ body {
    }
   
   .container-img figure img{
-    width: 150px;
+    width: 100%;
+    max-width: 150px;
     height: 150px;
     max-height: 150px;
-    border-radius: 20px;
-    
+    border-radius: 20px;    
   }
 
  .carousel-item img {
